@@ -178,7 +178,7 @@ public class LinkedList<E> implements List<E> {
         private ListElement<E> prevElement;
         private E value;
 
-         ListElement(E value, ListElement<E> nextElement, ListElement<E> prevElement) {
+        ListElement(E value, ListElement<E> nextElement, ListElement<E> prevElement) {
             this.value = value;
             this.nextElement = nextElement;
             this.prevElement = prevElement;
